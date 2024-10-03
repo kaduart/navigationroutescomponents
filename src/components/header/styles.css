@@ -1,0 +1,28 @@
+header {
+
+    .nrc-header {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+
+        .nrc-header-one {
+            display: flex;
+            justify-content: space-around;
+
+            .nrc-header-menu-item {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.36px;
+                text-align: left;
+                padding: 20px;
+                color: var(--rs-color-font-white);
+            }
+        }
+    }
+
+}
+
+.menu-active {
+    font-weight: 700 !important;
+}
