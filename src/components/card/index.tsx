@@ -1,6 +1,6 @@
 
 type Props = {
-    items: string[]
+    items: string[];
 }
 export default function Card({ items }: Props) {
 
